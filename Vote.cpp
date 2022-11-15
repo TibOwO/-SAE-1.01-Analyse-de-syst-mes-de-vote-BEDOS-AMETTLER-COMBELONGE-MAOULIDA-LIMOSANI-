@@ -23,10 +23,19 @@ a:
         goto a;
     }
 
+    int CsGo = 0;
+    int StreetFighter = 0;
+    int CivilisationVI = 0;
+    int MarioKart = 0;
+
     while (ifs.eof() == false)
     {
         string str;
         ifs >> str;
-        cout << str << endl;
+        if (str == "CsGo" || "CSGO" || "csgo")
+        {
+            ++CsGo;
+        }
     }
+    cout << "csgo = " << CsGo << endl;
 }
