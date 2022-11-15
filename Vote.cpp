@@ -8,7 +8,6 @@ int main()
 {
     cout << "Systeme ........" << endl;
     string nomFichierEntree;
-    bool fichierTrouve;
 a:
     cout << "veuillez entrer le nom du fichier d'entree" << endl;
     cin >> nomFichierEntree;
@@ -17,12 +16,17 @@ a:
     if (ifs.is_open())
     {
         cout << "Fichier ouvert" << endl;
-        fichierTrouve = true;
-        return 1;
     }
     else
     {
         cerr << "Fichier introuvable" << endl;
         goto a;
+    }
+
+    while (ifs.eof() == false)
+    {
+        string str;
+        ifs >> str;
+        cout << str << endl;
     }
 }
