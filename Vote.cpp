@@ -7,22 +7,22 @@ using namespace std;
 int main()
 {
     cout << "Systeme ........" << endl;
-    string nomFichierEntree;
-    bool fichierTrouve;
-    while (!fichierTrouve)
+    string nomFichierEntree; // declaration de la variable du nom du fichier a ouvrir
+    bool fichierTrouve;      // déclara var pour boucler tant que le fichier n'est pas trouvé
+    while (!fichierTrouve)   // tant que le fichier n'est pas trouvé
     {
         cout << "veuillez entrer le nom du fichier d'entree" << endl;
         cin >> nomFichierEntree;
-        ifstream ifs;
-        ifs.open(nomFichierEntree);
-        if (ifs.is_open())
+        ifstream ifs;               // declaration de ifs comme flux
+        ifs.open(nomFichierEntree); // ouvrir le fichier "nomFichierEntree" comme flux
+        if (ifs.is_open())          // on vérifie si il est ouvert
         {
             cout << "Fichier ouvert" << endl;
-            fichierTrouve = true;
+            fichierTrouve = true; // permet de sortir de la boucle
         }
         else
         {
-            cerr << "File not found" << endl;
+            cerr << "File not found" << endl; // afficher msg d'erreur et reviens au début de la boucle
         }
     }
 }
