@@ -15,14 +15,15 @@ a:
     ifs.open(nomFichierEntree);
     if (ifs.is_open())
     {
-        cout << "Fichier ouvert" << endl;
+        cout << "Fichier ouvert" << endl
+             << endl;
     }
     else
     {
         cerr << "Fichier introuvable" << endl;
         goto a;
     }
-
+    int voteBlanc = 0;
     int CsGo = 0;
     int StreetFighter = 0;
     int CivilisationVI = 0;
@@ -32,10 +33,38 @@ a:
     {
         string str;
         ifs >> str;
-        if (str == "CsGo" || "CSGO" || "csgo")
+
+        if (str == "csgo") // le test marche pas mais ca compte chaque ligne en gros
         {
             ++CsGo;
         }
+
+        else if (str == "MarioKart")
+        {
+            ++MarioKart;
+        }
+
+        else if (str == "CivilisationVI")
+        {
+            ++CivilisationVI;
+        }
+
+        else if (str == "StreetFighter")
+        {
+            ++StreetFighter;
+        }
+
+        else
+        {
+            ++voteBlanc;
+        }
     }
-    cout << "csgo = " << CsGo << endl;
+
+    cout << "Resultat final : " << endl
+         << endl
+         << "Counter Strike Global Offensive = " << CsGo << endl
+         << "MarioKart = " << MarioKart << endl
+         << "CivilisationVI = " << CivilisationVI << endl
+         << "StreetFighter = " << StreetFighter << endl
+         << "vote blanc = " << voteBlanc;
 }

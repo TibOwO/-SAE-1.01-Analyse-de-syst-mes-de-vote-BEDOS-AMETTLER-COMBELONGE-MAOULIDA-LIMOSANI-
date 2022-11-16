@@ -1,7 +1,5 @@
-CsGo
-CSGO
 csgo
-Csgo
-CsgO
-COUNTER_STRIKE_GLOBAL_OFFENSIVE
+MarioKart
+StreetFighter
+CivilisationVI
 caca
