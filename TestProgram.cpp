@@ -1,9 +1,16 @@
  // <>
 #include <iostream>
 #include <fstream>
+#include <cctype>
+#include <string>
+#include <algorithm>
+#include <stdlib.h>
 
+#include "EasyAssert.cpp"
 
 using namespace std;
+
+
 
 int main()
 {
@@ -12,6 +19,7 @@ int main()
 a:
     cout << "veuillez entrer le nom du fichier d'entree" << endl;
     cin >> nomFichierEntree;
+    if (nomFichierEntree == "exit") exit(EXIT_SUCCESS);
     ifstream ifs;
     ifs.open(nomFichierEntree);
     if (ifs.is_open())
@@ -30,29 +38,51 @@ a:
     int CivilisationVI = 0;
     int MarioKart = 0;
 
+     
     while (ifs.eof() == false)
     {
         string str;
         ifs >> str;
+        
 
-        if (str == "csgo") // le test marche pas mais ca compte chaque ligne en gros
+        if (str == "csgo" or str == "csgo+") // le test marche pas mais ca compte chaque ligne en gros
         {
             ++CsGo;
         }
 
-        else if (str == "MarioKart")
+        else if (str == "MarioKart" or str == "MarioKart+")
         {
             ++MarioKart;
         }
 
-        else if (str == "CivilisationVI")
+        else if (str == "CivilisationVI" or str == "CivilisationVI+")
         {
             ++CivilisationVI;
         }
 
-        else if (str == "StreetFighter")
+        else if (str == "StreetFighter" or str == "StreetFighter+")
         {
             ++StreetFighter;
+        }
+
+        else if (str == "csgo-") 
+        {
+            --CsGo;
+        }
+
+        else if (str == "MarioKart-")
+        {
+            --MarioKart;
+        }
+
+        else if (str == "CivilisationVI-")
+        {
+            --CivilisationVI;
+        }
+
+        else if (str == "StreetFighter-")
+        {
+            --StreetFighter;
         }
 
         else
@@ -67,5 +97,5 @@ a:
          << "MarioKart = " << MarioKart << endl
          << "CivilisationVI = " << CivilisationVI << endl
          << "StreetFighter = " << StreetFighter << endl
-         << "vote blanc = " << voteBlanc;
+         << "vote blanc = " << voteBlanc << endl;
 }
