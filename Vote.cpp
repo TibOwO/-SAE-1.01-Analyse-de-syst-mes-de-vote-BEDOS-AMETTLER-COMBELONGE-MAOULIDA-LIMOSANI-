@@ -6,22 +6,16 @@
 
 using namespace std;
 
-void votePluralite(int csgo, int mario, int civil, int streetfight)
+vector<int> votePluralite(int csgo, int mario, int civil, int streetfight)
 {
     vector<int> tab(4);
+    tab[0] = streetfight;
     tab[1] = csgo;
     tab[2] = mario;
     tab[3] = civil;
-    tab[0] = streetfight;
-    for (int i = 0; i < tab.size(); i++)
-    {
-        cout << tab[i] << endl;
-    }
+    int i = 0;
     sort(tab.begin(), tab.end());
-    for (int i = 0; i < tab.size(); i++)
-    {
-        cout << tab[i] << endl;
-    }
+    return tab;
 }
 
 int main()
@@ -89,5 +83,44 @@ a:
          << "vote blanc = " << voteBlanc << endl
          << endl;
 
-    votePluralite(CsGo, CivilisationVI, StreetFighter, MarioKart);
+    vector<int> tab = votePluralite(CsGo, CivilisationVI, StreetFighter, MarioKart);
+    string nomJeu;
+    for (int i = tab.size(); i >= 0; i--)
+    {
+        if (tab[i] == CivilisationVI)
+        {
+            nomJeu = "CivilisationVI";
+            cout << i << "eme : " << nomJeu << endl;
+        }
+
+        if (tab[i] == StreetFighter)
+        {
+            nomJeu = "StreetFighter";
+            cout << i << "eme : "
+                 << nomJeu << endl;
+        }
+
+        if (tab[i] == MarioKart)
+        {
+            nomJeu = "MarioKart";
+            cout << i << "eme : "
+                 << nomJeu << endl;
+        }
+
+        if (tab[i] == CsGo)
+        {
+            nomJeu = "CsGo";
+            cout
+                << i << "eme : "
+                << nomJeu << endl;
+        }
+    }
+
+    /*
+      for (int i = 0; i < tab.size(); i++)
+       {
+           cout << "case " << i << " = ";
+           cout << tab[i] << endl;
+       }
+    */
 }
