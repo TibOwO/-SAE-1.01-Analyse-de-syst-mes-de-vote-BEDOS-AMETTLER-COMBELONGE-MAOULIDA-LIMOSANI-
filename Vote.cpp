@@ -1,8 +1,28 @@
 // <>
 #include <iostream>
 #include <fstream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
+
+void votePluralite(int csgo, int mario, int civil, int streetfight)
+{
+    vector<int> tab(4);
+    tab[1] = csgo;
+    tab[2] = mario;
+    tab[3] = civil;
+    tab[0] = streetfight;
+    for (int i = 0; i < tab.size(); i++)
+    {
+        cout << tab[i] << endl;
+    }
+    sort(tab.begin(), tab.end());
+    for (int i = 0; i < tab.size(); i++)
+    {
+        cout << tab[i] << endl;
+    }
+}
 
 int main()
 {
@@ -66,5 +86,8 @@ a:
          << "MarioKart = " << MarioKart << endl
          << "CivilisationVI = " << CivilisationVI << endl
          << "StreetFighter = " << StreetFighter << endl
-         << "vote blanc = " << voteBlanc;
+         << "vote blanc = " << voteBlanc << endl
+         << endl;
+
+    votePluralite(CsGo, CivilisationVI, StreetFighter, MarioKart);
 }
