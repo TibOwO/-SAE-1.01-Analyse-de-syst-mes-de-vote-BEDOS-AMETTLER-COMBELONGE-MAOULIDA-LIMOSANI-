@@ -24,7 +24,7 @@ int main()
     int jeu2 = 0;
     int jeu3 = 0;
     int jeu4 = 0;
-
+    cout <<"Les quatre jeu sont : "<<endl;
     vector<string> nomJeux(4);
     int indice =0;
 
@@ -77,8 +77,6 @@ int main()
 
     nbrParticiant = nbrParticiant/2;
 
-    cout <<"Les quatre jeu sont : "<<endl;
-
     cout << "Resultat final : " << endl
          << endl
          << nomJeux[0]<< " = " << jeu1 << endl
@@ -89,7 +87,6 @@ int main()
          << endl;
          
     vector<int> tab = votePluralite(jeu1, jeu2, jeu3, jeu4);
-    string nomJeu;
     bool aff1 = false;
     bool aff2 = false;
     bool aff3 = false;
@@ -107,29 +104,26 @@ int main()
         
         if (tab[i] == jeu1  && aff1 == false)
         {
-            nomJeu = "jeu1";
-            cout << token ;
+            
+            cout << nomJeux[0];
             aff1 =false ;
         }
 
         else if (tab[i] == jeu2 && aff2 == false)
         {
-            nomJeu = "jeu2";
-            cout <<nomJeu;
+            cout <<nomJeux[1];
             aff2 = true;
         }
 
         else if (tab[i] == jeu3 && aff3 == false)
         {
-            nomJeu = "jeu3";
-            cout<< nomJeu ;
+            cout <<nomJeux[2];
             aff3 = true;
         }
 
         else if (tab[i] == jeu4 && aff4 == false)
         {
-            nomJeu = "jeu4";
-            cout<< nomJeu ;
+            cout <<nomJeux[3];
             aff4 = true;
         }
         cout<<" avec un score de : "<<tab[i]<<endl;
