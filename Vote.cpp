@@ -5,13 +5,13 @@
 
 using namespace std;
 
-vector<int> votePluralite(int csgo, int mario, int civil, int streetfight)
+vector<int> votePluralite(int jeu1, int jeu2, int jeu3, int jeu4)
 {
     vector<int> tab(4);
-    tab[0] = streetfight;
-    tab[1] = csgo;
-    tab[2] = mario;
-    tab[3] = civil;
+    tab[0] = jeu1;
+    tab[1] = jeu2;
+    tab[2] = jeu3;
+    tab[3] = jeu4;
     int i = 0;
     sort(tab.begin(), tab.end(), greater<>());
     return tab;
@@ -108,7 +108,7 @@ int main()
         if (tab[i] == jeu1  && aff1 == false)
         {
             nomJeu = "jeu1";
-            cout << nomJeu ;
+            cout << token ;
             aff1 =false ;
         }
 
