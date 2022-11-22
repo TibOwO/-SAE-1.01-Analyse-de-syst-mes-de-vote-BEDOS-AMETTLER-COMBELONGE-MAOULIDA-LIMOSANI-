@@ -1,0 +1,14 @@
+Resultat final : 
+
+Counter Strike Global Offensive = 3
+MarioKart = 3
+CivilisationVI = 1
+StreetFighter = 2
+vote blanc = 1
+
+3eme : MarioKart
+3eme : CsGo
+2eme : MarioKart
+2eme : CsGo
+1eme : StreetFighter
+0eme : CivilisationVI
