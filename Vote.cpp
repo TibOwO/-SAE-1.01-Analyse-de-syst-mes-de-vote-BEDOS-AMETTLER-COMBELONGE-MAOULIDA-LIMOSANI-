@@ -20,24 +20,7 @@ vector<int> votePluralite(int csgo, int mario, int civil, int streetfight)
 
 int main()
 {
-   // cout << "Systeme ........" << endl;
-    string nomFichierEntree;
-a:
-    //cout << "veuillez entrer le nom du fichier d'entree" << endl;
-    cin >> nomFichierEntree;
-    //ifstream ifs;
-    //cin.open(nomFichierEntree);
-    //if (cin.is_open())
-    //{
-    //    cout << "Fichier ouvert" << endl
-    //         << endl;
-    //}
-    //else
-    //{
-    //    cerr << "Fichier introuvable" << endl;
-    //    goto a;
-    //}
-    int voteBlanc = 0;
+    int nbrParticiant = 0;
     int jeu1 = 0;
     int jeu2 = 0;
     int jeu3 = 0;
@@ -45,43 +28,42 @@ a:
 
     while (cin.eof() == false)
     {
-        int jeu;
-        cin >> jeu;
-
-        if (jeu == 1) // le test marche pas mais ca compte chaque ligne en gros
+        string ligneLue;
+        cin >> ligneLue;
+        if (ligneLue == "1") // le test marche pas mais ca compte chaque ligne en gros
         {
             ++jeu1;
         }
 
-        else if (jeu == 2)
+        else if (ligneLue == "2")
         {
             ++jeu2;
         }
 
-        else if (jeu == 3)
+        else if (ligneLue == "3")
         {
             ++jeu3;
         }
 
-        else if (jeu == 4)
+        else if (ligneLue == "4")
         {
             ++jeu4;
         }
 
         else
         {
-            ++voteBlanc;
+            ++nbrParticiant;
         }
     }
     cout <<"Les quatre jeu sont : "<<endl;
 
     cout << "Resultat final : " << endl
          << endl
-         << "Counter Strike Global Offensive = " << jeu1 << endl
-         << "MarioKart = " << jeu2 << endl
-         << "CivilisationVI = " << jeu3 << endl
-         << "StreetFighter = " << jeu4 << endl
-         << "vote blanc = " << voteBlanc << endl
+         << "Jeux 1 = " << jeu1 << endl
+         << "Jeux 2 = " << jeu2 << endl
+         << "Jeux 3 = " << jeu3 << endl
+         << "Jeux 4 = " << jeu4 << endl
+         << "Nombre de participant = " << nbrParticiant << endl
          << endl;
 
     vector<int> tab = votePluralite(jeu1, jeu2, jeu3, jeu4);
@@ -90,29 +72,29 @@ a:
     {
         if (tab[i] == jeu1)
         {
-            nomJeu = "CivilisationVI";
-            cout << i << "eme : " << nomJeu << endl;
+            nomJeu = "jeu1";
+            cout << i << " eme : " << nomJeu << endl;
         }
 
         if (tab[i] == jeu2)
         {
-            nomJeu = "StreetFighter";
-            cout << i << "eme : "
+            nomJeu = "jeu2";
+            cout << i << " eme : "
                  << nomJeu << endl;
         }
 
         if (tab[i] == jeu3)
         {
-            nomJeu = "MarioKart";
-            cout << i << "eme : "
+            nomJeu = "jeu3";
+            cout << i << " eme : "
                  << nomJeu << endl;
         }
 
         if (tab[i] == jeu4)
         {
-            nomJeu = "CsGo";
+            nomJeu = "jeu4";
             cout
-                << i << "eme : "
+                << i << " eme : "
                 << nomJeu << endl;
         }
     }
