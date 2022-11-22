@@ -1,20 +1,13 @@
 Les quatre jeu sont : 
 Resultat final : 
 
-Jeux 1 = 1
-Jeux 2 = 1
-Jeux 3 = 1
-Jeux 4 = 0
-Nombre de participant = 1
+Jeux 1 = 26
+Jeux 2 = 36
+Jeux 3 = 27
+Jeux 4 = 24
+Nombre de participant = 113
 
 4 eme : jeu4
 3 eme : jeu1
-3 eme : jeu2
-3 eme : jeu3
-2 eme : jeu1
-2 eme : jeu2
 2 eme : jeu3
-1 eme : jeu1
 1 eme : jeu2
-1 eme : jeu3
-0 eme : jeu4

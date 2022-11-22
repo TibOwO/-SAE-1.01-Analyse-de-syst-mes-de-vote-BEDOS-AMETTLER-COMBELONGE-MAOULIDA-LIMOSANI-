@@ -14,7 +14,7 @@ vector<int> votePluralite(int csgo, int mario, int civil, int streetfight)
     tab[2] = mario;
     tab[3] = civil;
     int i = 0;
-    sort(tab.begin(), tab.end());
+    sort(tab.begin(), tab.end(), greater<>());
     return tab;
 }
 
@@ -55,6 +55,9 @@ int main()
             ++nbrParticiant;
         }
     }
+
+    nbrParticiant = nbrParticiant/2;
+
     cout <<"Les quatre jeu sont : "<<endl;
 
     cout << "Resultat final : " << endl
@@ -73,20 +76,20 @@ int main()
         if (tab[i] == jeu1)
         {
             nomJeu = "jeu1";
-            cout << i << " eme : " << nomJeu << endl;
+            cout << i+1 << " eme : " << nomJeu << endl;
         }
 
         if (tab[i] == jeu2)
         {
             nomJeu = "jeu2";
-            cout << i << " eme : "
+            cout << i+1 << " eme : "
                  << nomJeu << endl;
         }
 
         if (tab[i] == jeu3)
         {
             nomJeu = "jeu3";
-            cout << i << " eme : "
+            cout << i+1 << " eme : "
                  << nomJeu << endl;
         }
 
@@ -94,7 +97,7 @@ int main()
         {
             nomJeu = "jeu4";
             cout
-                << i << " eme : "
+                << i+1 << " eme : "
                 << nomJeu << endl;
         }
     }
