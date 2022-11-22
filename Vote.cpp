@@ -38,34 +38,34 @@ a:
     //    goto a;
     //}
     int voteBlanc = 0;
-    int CsGo = 0;
-    int StreetFighter = 0;
-    int CivilisationVI = 0;
-    int MarioKart = 0;
+    int jeu1 = 0;
+    int jeu2 = 0;
+    int jeu3 = 0;
+    int jeu4 = 0;
 
     while (cin.eof() == false)
     {
-        string str;
-        cin >> str;
+        int jeu;
+        cin >> jeu;
 
-        if (str == "csgo") // le test marche pas mais ca compte chaque ligne en gros
+        if (jeu == 1) // le test marche pas mais ca compte chaque ligne en gros
         {
-            ++CsGo;
+            ++jeu1;
         }
 
-        else if (str == "MarioKart")
+        else if (jeu == 2)
         {
-            ++MarioKart;
+            ++jeu2;
         }
 
-        else if (str == "CivilisationVI")
+        else if (jeu == 3)
         {
-            ++CivilisationVI;
+            ++jeu3;
         }
 
-        else if (str == "StreetFighter")
+        else if (jeu == 4)
         {
-            ++StreetFighter;
+            ++jeu4;
         }
 
         else
@@ -73,41 +73,42 @@ a:
             ++voteBlanc;
         }
     }
+    cout <<"Les quatre jeu sont : "<<endl;
 
     cout << "Resultat final : " << endl
          << endl
-         << "Counter Strike Global Offensive = " << CsGo << endl
-         << "MarioKart = " << MarioKart << endl
-         << "CivilisationVI = " << CivilisationVI << endl
-         << "StreetFighter = " << StreetFighter << endl
+         << "Counter Strike Global Offensive = " << jeu1 << endl
+         << "MarioKart = " << jeu2 << endl
+         << "CivilisationVI = " << jeu3 << endl
+         << "StreetFighter = " << jeu4 << endl
          << "vote blanc = " << voteBlanc << endl
          << endl;
 
-    vector<int> tab = votePluralite(CsGo, CivilisationVI, StreetFighter, MarioKart);
+    vector<int> tab = votePluralite(jeu1, jeu2, jeu3, jeu4);
     string nomJeu;
     for (int i = tab.size(); i >= 0; i--)
     {
-        if (tab[i] == CivilisationVI)
+        if (tab[i] == jeu1)
         {
             nomJeu = "CivilisationVI";
             cout << i << "eme : " << nomJeu << endl;
         }
 
-        if (tab[i] == StreetFighter)
+        if (tab[i] == jeu2)
         {
             nomJeu = "StreetFighter";
             cout << i << "eme : "
                  << nomJeu << endl;
         }
 
-        if (tab[i] == MarioKart)
+        if (tab[i] == jeu3)
         {
             nomJeu = "MarioKart";
             cout << i << "eme : "
                  << nomJeu << endl;
         }
 
-        if (tab[i] == CsGo)
+        if (tab[i] == jeu4)
         {
             nomJeu = "CsGo";
             cout
