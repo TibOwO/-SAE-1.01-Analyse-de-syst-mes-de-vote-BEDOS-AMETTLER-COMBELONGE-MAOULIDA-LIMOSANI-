@@ -1,13 +1,18 @@
+MK
+CSGO
+SF
+CVL
+
 Les quatre jeu sont : 
 Resultat final : 
 
-Jeux 1 = 26
-Jeux 2 = 36
-Jeux 3 = 27
-Jeux 4 = 24
+MK = 23
+CSGO = 36
+SF = 27
+CVL = 27
 Nombre de participant = 113
 
-4 eme : jeu4
-3 eme : jeu1
-2 eme : jeu3
-1 eme : jeu2
+1er,  jeu2 avec un score de : 36
+2ème,  jeu3 avec un score de : 27
+3ème,  jeu4 avec un score de : 27
+4ème,  jeu1 avec un score de : 23

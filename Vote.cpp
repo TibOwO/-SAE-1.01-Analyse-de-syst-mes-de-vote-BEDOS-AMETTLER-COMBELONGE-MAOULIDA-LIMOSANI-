@@ -1,4 +1,3 @@
-// <>
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -25,6 +24,26 @@ int main()
     int jeu2 = 0;
     int jeu3 = 0;
     int jeu4 = 0;
+
+    vector<string> nomJeux(4);
+    int indice =0;
+
+    string ligneJeu;
+    cin >> ligneJeu;
+
+    string words = ligneJeu.substr(0, ligneJeu.find('|'));
+    string delimiter = "|";
+    size_t pos = 0;
+    string token;
+    while ((pos = ligneJeu.find(delimiter)) != std::string::npos) {
+        token = ligneJeu.substr(0, pos);
+        cout << token << endl;
+        nomJeux[indice] = token;
+        ligneJeu.erase(0, pos + delimiter.length());
+        ++indice;
+    }
+    cout << ligneJeu << endl;
+
 
     while (cin.eof() == false)
     {
@@ -62,50 +81,65 @@ int main()
 
     cout << "Resultat final : " << endl
          << endl
-         << "Jeux 1 = " << jeu1 << endl
-         << "Jeux 2 = " << jeu2 << endl
-         << "Jeux 3 = " << jeu3 << endl
-         << "Jeux 4 = " << jeu4 << endl
+         << nomJeux[0]<< " = " << jeu1 << endl
+         << nomJeux[1]<< " = " << jeu2 << endl
+         << nomJeux[2]<< " = " << jeu3 << endl
+         << nomJeux[3]<< " = " << jeu4 << endl
          << "Nombre de participant = " << nbrParticiant << endl
          << endl;
-
+         
     vector<int> tab = votePluralite(jeu1, jeu2, jeu3, jeu4);
     string nomJeu;
-    for (int i = tab.size(); i >= 0; i--)
+    bool aff1 = false;
+    bool aff2 = false;
+    bool aff3 = false;
+    bool aff4 = false;
+    for (int i = 0; i <= tab.size()-1; ++i)
     {
-        if (tab[i] == jeu1)
+        if (i == 0)
+        {
+            cout << i+1 <<"er, "<<" ";
+        }
+        else
+        {
+            cout << i+1 <<"ème, "<<" ";
+        }
+        
+        if (tab[i] == jeu1  && aff1 == false)
         {
             nomJeu = "jeu1";
-            cout << i+1 << " eme : " << nomJeu << endl;
+            cout << nomJeu ;
+            aff1 =false ;
         }
 
-        if (tab[i] == jeu2)
+        else if (tab[i] == jeu2 && aff2 == false)
         {
             nomJeu = "jeu2";
-            cout << i+1 << " eme : "
-                 << nomJeu << endl;
+            cout <<nomJeu;
+            aff2 = true;
         }
 
-        if (tab[i] == jeu3)
+        else if (tab[i] == jeu3 && aff3 == false)
         {
             nomJeu = "jeu3";
-            cout << i+1 << " eme : "
-                 << nomJeu << endl;
+            cout<< nomJeu ;
+            aff3 = true;
         }
 
-        if (tab[i] == jeu4)
+        else if (tab[i] == jeu4 && aff4 == false)
         {
             nomJeu = "jeu4";
-            cout
-                << i+1 << " eme : "
-                << nomJeu << endl;
+            cout<< nomJeu ;
+            aff4 = true;
         }
+        cout<<" avec un score de : "<<tab[i]<<endl;
+        
     }
 
     /*
       for (int i = 0; i < tab.size(); i++)
        {
-           cout << "case " << i << " = ";
+           cout << "la place " << i+1 << " = ";
            cout << tab[i] << endl;
        }
     */
