@@ -24,7 +24,7 @@ int main()
     int jeu2 = 0;
     int jeu3 = 0;
     int jeu4 = 0;
-    cout <<"Les quatre jeu sont : "<<endl;
+    cout <<"Les quatre jeu sont : " << endl << endl;
     vector<string> nomJeux(4);
     int indice =0;
 
