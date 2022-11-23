@@ -13,7 +13,7 @@ vector<int> votePluralite(int jeu1, int jeu2, int jeu3, int jeu4)
     tab[2] = jeu3;
     tab[3] = jeu4;
     int i = 0;
-    sort(tab.begin(), tab.end(),);
+    sort(tab.begin(), tab.end());
     return tab;
 }
 
