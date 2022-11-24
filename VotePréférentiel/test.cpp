@@ -49,7 +49,6 @@ int main()
     }
 
     // Comptabilisation des votes
-
     while (cin.eof() == false)
     {
         string ligneLue;
@@ -82,7 +81,6 @@ int main()
     nbrParticiant = nbrParticiant / 2;
 
     // Affichage des résultats
-
     cout << "Resultat final : " << endl
          << endl
          << nomJeux[0] << " = " << jeu1 << endl
@@ -135,12 +133,4 @@ int main()
         }
         cout << " avec un score de : " << tab[i] << endl;
     }
-
-    /*
-      for (int i = 0; i < tab.size(); i++)
-       {
-           cout << "la place " << i+1 << " = ";
-           cout << tab[i] << endl;
-       }
-    */
 }
