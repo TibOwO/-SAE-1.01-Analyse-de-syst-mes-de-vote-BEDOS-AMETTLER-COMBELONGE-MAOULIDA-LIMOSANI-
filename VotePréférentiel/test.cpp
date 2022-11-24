@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -17,6 +17,17 @@ vector<int> votePluralite(int jeu1, int jeu2, int jeu3, int jeu4)
     return tab;
 }
 
+void ListeJeu(string ligneLue, char delimiter)
+{
+    stringstream ss(ligneLue);
+    string jeu;
+    while (!ss.eof())
+    {
+        getline(ss, jeu, delimiter);
+        cout << jeu << endl;
+    }
+}
+
 int main()
 {
     int nbrParticiant = 0;
@@ -24,33 +35,24 @@ int main()
     int jeu2 = 0;
     int jeu3 = 0;
     int jeu4 = 0;
-    cout << "Les quatre jeu sont : " << endl
-         << endl;
     vector<string> nomJeux(4);
-    int indice = 0;
+
+    cout << "Les quatre jeu sont : " << endl;
 
     string ligneJeu;
-    cin >> ligneJeu;
 
-    string words = ligneJeu.substr(0, ligneJeu.find('|'));
-    string delimiter = "|";
-    size_t pos = 0;
-    string token;
-    while ((pos = ligneJeu.find(delimiter)) != std::string::npos)
+    for (int i = 0; i < 4; i++)
     {
-        token = ligneJeu.substr(0, pos);
-        cout << token << endl;
-        nomJeux[indice] = token;
-        ligneJeu.erase(0, pos + delimiter.length());
-        ++indice;
+        cin >> ligneJeu;
+        ListeJeu(ligneJeu, ' ');
+        nomJeux[i] = ligneJeu;
     }
-    cout << ligneJeu << endl;
 
     while (cin.eof() == false)
     {
         string ligneLue;
         cin >> ligneLue;
-        if (ligneLue == "1") // le test marche pas mais ca compte chaque ligne en gros
+        if (ligneLue == "1")
         {
             ++jeu1;
         }
@@ -96,13 +98,11 @@ int main()
     {
         if (i == 0)
         {
-            cout << i + 1 << "er, "
-                 << " ";
+            cout << i + 1 << "er, ";
         }
         else
         {
-            cout << i + 1 << "ème, "
-                 << " ";
+            cout << i + 1 << "ème, ";
         }
 
         if (tab[i] == jeu1 && aff1 == false)
@@ -131,4 +131,12 @@ int main()
         }
         cout << " avec un score de : " << tab[i] << endl;
     }
+
+    /*
+      for (int i = 0; i < tab.size(); i++)
+       {
+           cout << "la place " << i+1 << " = ";
+           cout << tab[i] << endl;
+       }
+    */
 }
