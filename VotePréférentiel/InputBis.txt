@@ -1,5 +1,344 @@
 Mariokart StreetFighter CournterStrike  Civilisation
 
 AMETTLER
-Alexis
+Thibault
 vote: 4 1 2 3
+ALI
+Mdallah
+vote : 3 2 4 1 
+AMETTLER
+Thibault
+vote : 4 3 2 1
+ATROKHOV
+Alexis
+vote : 1 3 2 4
+ATTAR
+Mohamed-Nadir
+vote : 3 2 1 4
+AVENA
+Clement
+vote : 4 3 2 1
+BACHAR
+Bilal
+vote : 3 4 2 1
+BADJOUDJ
+Hana
+vote : 1 4 2 3
+BAMAS
+Mathias
+vote : 2 3 1 4
+BARROSO-YELMO
+Mathias
+vote : 2 3 1 4
+BARTE
+Antonin
+vote : 1 4 3 2
+BAUDOUY
+Ugo
+vote : 1 4 2 3
+BEAUQUIER
+Quentin
+vote : 1 3 2 4
+BEDDIAF
+Miloud
+vote : 1 4 2 3
+BEDOS
+Enzo
+vote : 3 4 2 3
+BELABBAS
+Rayane
+vote : 3 4 1 2
+BENDJEDDOU
+Rayan
+vote : 3 4 1 2
+BENLAKHLEF
+Medhi
+vote : 2 1 4 3
+BERGERON
+Alexandre
+vote : 1 3 2 4
+BIHI
+Ayoub
+vote : 1 2 4 3
+BOINAALI
+Chris
+vote : 1 3 2 4
+BOSSO
+Gavril
+vote : 2 1 3 4
+BOUGEARD
+Bastien
+vote : 2 1 4 3
+BOUT
+Thomas
+vote : 1 3 2 4
+BOUYEDA
+Remi
+vote : 4 2 3 1
+BRADAI
+Chiheb
+vote : 3 4 2 1 
+BRAHMI
+Moundir
+vote : 2 1 3 4
+BRUNET
+Ronan
+vote : 1 2 3 4
+CANO
+Vincent
+vote : 3 4 1 2
+CARON
+Pierrick
+vote : 1 2 3 4
+CARVAJAL
+Tom
+vote : 3 2 1 4
+CHOPARD
+William
+vote : 3 4 2 1
+CLEMENT
+Amadeus
+vote : 2 1 3 4
+COMBELONGE
+Enzo
+vote : 4 3 2 1
+CRESPIN
+Alexandre
+vote : 1 2 3 4
+DA-SILVA-SANTOS
+Lucas
+vote : 4 3 2 1
+DAW
+Charles
+vote : 3 4 2 1 
+DE-ANGELI
+Adam
+vote : 1 2 3 4
+DE-SOUSA-GUEDES
+Raphael
+vote : 2 1 4 3
+DEGANO
+Matteo
+vote : 4 1 2 3
+DELIN
+Alexis
+vote : 4 1 2 3 
+DELIN
+Maxime
+vote : 4 3 1 2
+DELMAS
+Mathis
+vote : 4 3 2 1
+DIOP
+Sokhna
+vote : 4 3 2 1
+DITLECADET
+Michael
+vote : 1 2 3 4
+DOLCE
+Lino
+vote : 1 2 3 4
+DUROISIN
+Tom
+vote : 3 4 1 2
+ESSALHI
+Ayoub
+vote : 3 4 1 2
+EVEN
+Tom
+vote : 2 3 1 4
+FALFERI
+Gabin
+vote : 2 3 1 4
+FARDOUX
+Theo
+vote : 2 3 1 4
+FERRANDO
+Alexis
+vote : 2 3 1 4
+FERRIER
+Killian
+vote : 2 3 1 4
+FLORIS-MIALHE
+Axel
+vote : 2 3 1 4
+FREDDI
+Logan
+vote : 4 2 3 1
+GINER
+Leo
+vote : 4 2 3 1 
+GIORDANO
+Yoann
+vote : 4 2 3 1
+GIRODENGO
+Camille
+vote : 4 2 3 1 
+GODINAUD
+Maïlys
+vote : 4 2 3 1
+GOUACHE
+Nathan
+vote : 4 1 2 3
+HARICOT
+Pierre
+vote : 1 2 4 3
+HENRICY
+Noah
+vote : 3 1 2 4
+HOSPITAL
+Jules
+vote : 3 1 2 4
+HOURLAY
+Enzo
+vote : 3 4 2 1  
+IKHERBANE
+Sami
+vote : 3 2 4 1 
+JAURAS
+Maxime
+vote : 1 3 2 4 
+KHADRAOUI
+Sabri
+vote : 3 4 1 2
+KUZMENKO
+Yehor
+vote : 3 4 1 2
+LARTIGAUD
+Elliot
+vote : 4 1 3 2
+LEBRUN
+Noa
+vote : 4 3 2 1 
+LEPERLIER
+Mael
+vote : 2 3 4 1 
+LEROUGE
+Robin
+vote : 2 3 1 4
+LEROUX
+Mathieu
+vote : 4 3 2 1 
+LESTRELIN
+Valentin
+vote : 3 1 2 4
+LIETO
+Myke
+vote : 2 1 4 3
+LIMOSANI
+Francesco
+vote : 2 1 3 4
+LOUARN
+Mathis
+vote : 2 1 4 3
+MAGNAN
+Lukas
+vote : 2 1 3 4
+MAOULIDA-ATTOUMANI
+Yazid-Raoul
+vote : 4 2 3 1
+MARIE
+Clement
+vote : 4 2 3 1
+MARTINEZ
+Romain
+vote : 4 3 2 1
+MESLI
+Mohamed
+vote : 2 3 4 1
+MISIEK
+Romain
+vote : 2 3 4 1
+MOMY
+Aurore
+vote : 1 3 2 1
+MONTANARD
+Hugo
+vote : 1 2 3 4
+N'GUYEN
+Lucas
+vote : 4 2 1 3
+NARDI
+Fabio
+vote : 3 4 2 1
+OGER
+Leo
+vote : 3 4 2 1
+PIOCT
+Rayan
+vote : 2 1 4 3
+PONOMARENKO
+Edouard
+vote : 2 1 3 4
+PORTELLI
+Angelo
+vote : 2 3 1 4
+POSSENTI
+Alexandre
+vote : 1 4 2 3
+RAMILSON
+Lorys
+vote : 3 1 4 2
+RIPOCHE
+Sarah
+vote : 2 3 4 1
+ROSSI
+Valentin
+vote : 2 4 3 1
+ROUBAUD
+Axel
+vote : 4 3 2 1
+ROUGE
+Gabriel
+vote : 4 2 1 3
+ROUSSET
+Antonin
+vote : 3 1 4 2
+RUGIERO
+Tymeo
+vote : 2 4 3 1
+SAFRAN
+Yoni
+vote : 2 1 4 2 
+SALA-MOCHIZUKI
+Yuki
+vote : 2 1 3 4
+SALOMON
+Clement
+vote : 4 1 2 3
+SANTOS
+Audran
+vote : 1 2 4 3
+SCIACCA
+Matteo
+vote : 3 1 2 4
+SEJOURNE
+Victor
+vote : 2 1 3 4
+SOLLE
+Mathis
+vote : 4 1 2 3
+SOUDANI-REGUIG
+Lyes-Yacine
+vote : 4 1 2 3
+STROPPIANA
+Damien
+vote : 1 3 2 4
+TAMARIN
+Maxime
+vote : 2 3 4 1
+THIEL
+Maxime
+vote : 2 1 3 4
+TORRES
+Julien
+vote : 2 1 3 4
+VINCENT
+Erwan
+vote : 1 2 4 3
+ZAINA
+Elias
+vote : 3 1 2 4
+ZOPPI
+Lucie
+vote : 3 2 1 4

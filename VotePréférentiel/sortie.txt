@@ -4,22 +4,15 @@ StreetFighter
 CournterStrike
 Civilisation
 
-AMETTLER
-Alexis
-vote:
-4
-1
-2
-3
 Resultat final : 
 
-Mariokart = 0
-StreetFighter = 0
-CournterStrike = 0
-Civilisation = 0
-Nombre de participant = 3
+Mariokart = 271
+StreetFighter = 310
+CournterStrike = 292
+Civilisation = 257
+Nombre de participant = 233
 
-1er, Mariokart avec un score de : 0
-2ème, Mariokart avec un score de : 0
-3ème, Mariokart avec un score de : 0
-4ème, Mariokart avec un score de : 0
+1er, StreetFighter avec un score de : 310
+2ème, CournterStrike avec un score de : 292
+3ème, Mariokart avec un score de : 271
+4ème, Civilisation avec un score de : 257

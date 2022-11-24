@@ -39,33 +39,34 @@ int main()
     cout << endl;
 
     // Comptabilisation des votes
-    string vote;
+    string ligneLue;
+
     while (cin.eof() == false)
     {
-        cin >> vote;
-        cout << vote << endl;
-        if (vote == "vote:")
+        cin >> ligneLue;
+
+        if (ligneLue == "vote:")
         {
-            for (int i = 4; i <= 0; i--)
+
+            for (unsigned i = 4; i >= 1; --i)
             {
-                cin >> vote;
-                cout << vote << endl;
-                if (vote == "1")
+                cin >> ligneLue;
+                if (ligneLue == "1")
                 {
                     jeu1 = jeu1 + i;
                 }
 
-                else if (vote == "2")
+                else if (ligneLue == "2")
                 {
                     jeu2 = jeu2 + i;
                 }
 
-                else if (vote == "3")
+                else if (ligneLue == "3")
                 {
                     jeu3 = jeu3 + i;
                 }
 
-                else if (vote == "4")
+                else if (ligneLue == "4")
                 {
                     jeu4 = jeu4 + i;
                 }
@@ -76,8 +77,6 @@ int main()
             ++nbrParticiant;
         }
     }
-
-    nbrParticiant = nbrParticiant / 2;
 
     // Affichage des résultats
     cout << "Resultat final : " << endl
