@@ -1,19 +1,17 @@
 Les quatre jeu sont : 
-
-MK
-CSGO
-SF
-CVL
-
+MK|CSGO|SF|CVL|
+ALI
+Mdallah
+2
 Resultat final : 
 
-MK = 23
-CSGO = 35
-SF = 28
-CVL = 28
-Nombre de participant = 113
+MK|CSGO|SF|CVL| = 24
+ALI = 34
+Mdallah = 28
+2 = 29
+Nombre de participant = 112
 
-1er,  CSGO avec un score de : 35
-2ème,  SF avec un score de : 28
-3ème,  CVL avec un score de : 28
-4ème,  MK avec un score de : 23
+1er, ALI avec un score de : 34
+2ème, 2 avec un score de : 29
+3ème, Mdallah avec un score de : 28
+4ème, MK|CSGO|SF|CVL| avec un score de : 24

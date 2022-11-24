@@ -6,7 +6,8 @@ Civilisation
 
 AMETTLER
 Alexis
-vote:4
+vote:
+4
 1
 2
 3
