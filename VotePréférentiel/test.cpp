@@ -4,7 +4,7 @@
 #include <bits/stdc++.h> //pour la partie utilisant cette librairie, nous avons été aidé de :https://www.geeksforgeeks.org/how-to-split-a-string-in-cc-python-and-java/
 using namespace std;
 
-vector<int> votePluralite(int jeu1, int jeu2, int jeu3, int jeu4)
+vector<int> CalculGagnant(int jeu1, int jeu2, int jeu3, int jeu4)
 {
     vector<int> tab(4);
     tab[0] = jeu1;
@@ -29,6 +29,8 @@ void ListeJeu(string ligneLue, char delimiter)
 
 int main()
 {
+
+    // déclaration des variables
     int nbrParticiant = 0;
     int jeu1 = 0;
     int jeu2 = 0;
@@ -36,16 +38,17 @@ int main()
     int jeu4 = 0;
     vector<string> nomJeux(4);
 
+    // Affichage des jeux
     cout << "Les quatre jeu sont : " << endl;
-
     string ligneJeu;
-
     for (int i = 0; i < 4; i++)
     {
         cin >> ligneJeu;
         ListeJeu(ligneJeu, ' ');
         nomJeux[i] = ligneJeu;
     }
+
+    // Comptabilisation des votes
 
     while (cin.eof() == false)
     {
@@ -76,8 +79,9 @@ int main()
             ++nbrParticiant;
         }
     }
-
     nbrParticiant = nbrParticiant / 2;
+
+    // Affichage des résultats
 
     cout << "Resultat final : " << endl
          << endl
@@ -88,7 +92,8 @@ int main()
          << "Nombre de participant = " << nbrParticiant << endl
          << endl;
 
-    vector<int> tab = votePluralite(jeu1, jeu2, jeu3, jeu4);
+    // Calcul et affichage des gagnant
+    vector<int> tab = CalculGagnant(jeu1, jeu2, jeu3, jeu4);
     bool aff1 = false;
     bool aff2 = false;
     bool aff3 = false;
