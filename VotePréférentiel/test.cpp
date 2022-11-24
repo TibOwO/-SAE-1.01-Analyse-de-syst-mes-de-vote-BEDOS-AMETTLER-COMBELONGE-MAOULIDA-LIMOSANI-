@@ -16,21 +16,10 @@ vector<int> CalculGagnant(int jeu1, int jeu2, int jeu3, int jeu4)
     return tab;
 }
 
-void ListeJeu(string ligneLue, char delimiter)
-{
-    stringstream ss(ligneLue);
-    string jeu;
-    while (!ss.eof())
-    {
-        getline(ss, jeu, delimiter);
-        cout << jeu << endl;
-    }
-}
-
 int main()
 {
 
-    // déclaration des variables
+    // Déclaration des variables
     int nbrParticiant = 0;
     int jeu1 = 0;
     int jeu2 = 0;
@@ -44,40 +33,50 @@ int main()
     for (int i = 0; i < 4; i++)
     {
         cin >> ligneJeu;
-        ListeJeu(ligneJeu, ' ');
         nomJeux[i] = ligneJeu;
+        cout << nomJeux[i] << endl;
     }
+    cout << endl;
 
     // Comptabilisation des votes
+    string vote;
     while (cin.eof() == false)
     {
-        string ligneLue;
-        cin >> ligneLue;
-        if (ligneLue == "1")
+        cin >> vote;
+        cout << vote << endl;
+        if (vote == "vote:")
         {
-            ++jeu1;
-        }
+            for (int i = 4; i <= 0; i--)
+            {
+                cin >> vote;
+                cout << vote << endl;
+                if (vote == "1")
+                {
+                    jeu1 = jeu1 + i;
+                }
 
-        else if (ligneLue == "2")
-        {
-            ++jeu2;
-        }
+                else if (vote == "2")
+                {
+                    jeu2 = jeu2 + i;
+                }
 
-        else if (ligneLue == "3")
-        {
-            ++jeu3;
-        }
+                else if (vote == "3")
+                {
+                    jeu3 = jeu3 + i;
+                }
 
-        else if (ligneLue == "4")
-        {
-            ++jeu4;
+                else if (vote == "4")
+                {
+                    jeu4 = jeu4 + i;
+                }
+            }
         }
-
         else
         {
             ++nbrParticiant;
         }
     }
+
     nbrParticiant = nbrParticiant / 2;
 
     // Affichage des résultats

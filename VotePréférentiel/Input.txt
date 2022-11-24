@@ -1,340 +1,340 @@
-Mariokart CournterStrike StreetFighter Civilisation 
+Mariokart StreetFighter CournterStrike  Civilisation 
 ALI
 Mdallah
-2 3 4 1 
+vote : 2 3 4 1 
 AMETTLER
 Thibault
-4
+vote : 4 3 2 1
 ATROKHOV
 Alexis
-1
+vote : 1 3 2 4
 ATTAR
 Mohamed-Nadir
-3
+vote : 3 2 1 4
 AVENA
 Clement
-4
+vote : 4 3 2 1
 BACHAR
 Bilal
-3
+vote : 3 4 2 1
 BADJOUDJ
 Hana
-1
+vote : 1 4 2 3
 BAMAS
 Mathias
-2
+vote : 2 3 1 4
 BARROSO-YELMO
 Mathias
-2
+vote : 2 3 1 4
 BARTE
 Antonin
-1
+vote : 1 4 3 2
 BAUDOUY
 Ugo
-1
+vote : 1 4 2 3
 BEAUQUIER
 Quentin
-1
+vote : 1 3 2 4
 BEDDIAF
 Miloud
-1
+vote : 1 4 2 3
 BEDOS
 Enzo
-3
+vote : 3 4 2 3
 BELABBAS
 Rayane
-3
+vote : 3 4 1 2
 BENDJEDDOU
 Rayan
-3
+vote : 3 4 1 2
 BENLAKHLEF
 Medhi
-2
+vote : 2 1 4 3
 BERGERON
 Alexandre
-1
+vote : 1 3 2 4
 BIHI
 Ayoub
-1
+vote : 1 2 4 3
 BOINAALI
 Chris
-1
+vote : 1 3 2 4
 BOSSO
 Gavril
-2
+vote : 2 1 3 4
 BOUGEARD
 Bastien
-2
+vote : 2 1 4 3
 BOUT
 Thomas
-1
+vote : 1 3 2 4
 BOUYEDA
 Remi
-4
+vote : 4 2 3 1
 BRADAI
 Chiheb
-3
+vote : 3 4 2 1 
 BRAHMI
 Moundir
-2
+vote : 2 1 3 4
 BRUNET
 Ronan
-1
+vote : 1 2 3 4
 CANO
 Vincent
-3
+vote : 3 4 1 2
 CARON
 Pierrick
-1
+vote : 1 2 3 4
 CARVAJAL
 Tom
-3
+vote : 3 2 1 4
 CHOPARD
 William
-3
+vote : 3 4 2 1
 CLEMENT
 Amadeus
-2
+vote : 2 1 3 4
 COMBELONGE
 Enzo
-4
+vote : 4 3 2 1
 CRESPIN
 Alexandre
-1
+vote : 1 2 3 4
 DA-SILVA-SANTOS
 Lucas
-4
+vote : 4 3 2 1
 DAW
 Charles
-3
+vote : 3 4 2 1 
 DE-ANGELI
 Adam
-1
+vote : 1 2 3 4
 DE-SOUSA-GUEDES
 Raphael
-2
+vote : 2 1 4 3
 DEGANO
 Matteo
-4
+vote : 4 1 2 3
 DELIN
 Alexis
-4
+vote : 4 1 2 3 
 DELIN
 Maxime
-4
+vote : 4 3 1 2
 DELMAS
 Mathis
-4
+vote : 4 3 2 1
 DIOP
 Sokhna
-4
+vote : 4 3 2 1
 DITLECADET
 Michael
-1
+vote : 1 2 3 4
 DOLCE
 Lino
-1
+vote : 1 2 3 4
 DUROISIN
 Tom
-3
+vote : 3 4 1 2
 ESSALHI
 Ayoub
-3
+vote : 3 4 1 2
 EVEN
 Tom
-2
+vote : 2 3 1 4
 FALFERI
 Gabin
-2
+vote : 2 3 1 4
 FARDOUX
 Theo
-2
+vote : 2 3 1 4
 FERRANDO
 Alexis
-2
+vote : 2 3 1 4
 FERRIER
 Killian
-2
+vote : 2 3 1 4
 FLORIS-MIALHE
 Axel
-2
+vote : 2 3 1 4
 FREDDI
 Logan
-4
+vote : 4 2 3 1
 GINER
 Leo
-4
+vote : 4 2 3 1 
 GIORDANO
 Yoann
-4
+vote : 4 2 3 1
 GIRODENGO
 Camille
-4
+vote : 4 2 3 1 
 GODINAUD
 Maïlys
-4
+vote : 4 2 3 1
 GOUACHE
 Nathan
-4
+vote : 4 1 2 3
 HARICOT
 Pierre
-1
+vote : 1 2 4 3
 HENRICY
 Noah
-3
+vote : 3 1 2 4
 HOSPITAL
 Jules
-3
+vote : 3 1 2 4
 HOURLAY
 Enzo
-3
+vote : 3 4 2 1  
 IKHERBANE
 Sami
-3
+vote : 3 2 4 1 
 JAURAS
 Maxime
-3
+vote : 1 3 2 4 
 KHADRAOUI
 Sabri
-3
+vote : 3 4 1 2
 KUZMENKO
 Yehor
-3
+vote : 3 4 1 2
 LARTIGAUD
 Elliot
-4
+vote : 4 1 3 2
 LEBRUN
 Noa
-4
+vote : 4 3 2 1 
 LEPERLIER
 Mael
-2
+vote : 2 3 4 1 
 LEROUGE
 Robin
-2
+vote : 2 3 1 4
 LEROUX
 Mathieu
-4
+vote : 4 3 2 1 
 LESTRELIN
 Valentin
-3
+vote : 3 1 2 4
 LIETO
 Myke
-2
+vote : 2 1 4 3
 LIMOSANI
 Francesco
-2
+vote : 2 1 3 4
 LOUARN
 Mathis
-2
+vote : 2 1 4 3
 MAGNAN
 Lukas
-2
+vote : 2 1 3 4
 MAOULIDA-ATTOUMANI
 Yazid-Raoul
-4
+vote : 4 2 3 1
 MARIE
 Clement
-4
+vote : 4 2 3 1
 MARTINEZ
 Romain
-4
+vote : 4 3 2 1
 MESLI
 Mohamed
-2
+vote : 2 3 4 1
 MISIEK
 Romain
-2
+vote : 2 3 4 1
 MOMY
 Aurore
-1
+vote : 1 3 2 1
 MONTANARD
 Hugo
-1
+vote : 1 2 3 4
 N'GUYEN
 Lucas
-4
+vote : 4 2 1 3
 NARDI
 Fabio
-3
+vote : 3 4 2 1
 OGER
 Leo
-3
+vote : 3 4 2 1
 PIOCT
 Rayan
-2
+vote : 2 1 4 3
 PONOMARENKO
 Edouard
-2
+vote : 2 1 3 4
 PORTELLI
 Angelo
-2
+vote : 2 3 1 4
 POSSENTI
 Alexandre
-1
+vote : 1 4 2 3
 RAMILSON
 Lorys
-3
+vote : 3 1 4 2
 RIPOCHE
 Sarah
-2
+vote : 2 3 4 1
 ROSSI
 Valentin
-2
+vote : 2 4 3 1
 ROUBAUD
 Axel
-4
+vote : 4 3 2 1
 ROUGE
 Gabriel
-4
+vote : 4 2 1 3
 ROUSSET
 Antonin
-3
+vote : 3 1 4 2
 RUGIERO
 Tymeo
-2
+vote : 2 4 3 1
 SAFRAN
 Yoni
-2
+vote : 2 1 4 2 
 SALA-MOCHIZUKI
 Yuki
-2
+vote : 2 1 3 4
 SALOMON
 Clement
-4
+vote : 4 1 2 3
 SANTOS
 Audran
-1
+vote : 1 2 4 3
 SCIACCA
 Matteo
-3
+vote : 3 1 2 4
 SEJOURNE
 Victor
-2
+vote : 2 1 3 4
 SOLLE
 Mathis
-4
+vote : 4 1 2 3
 SOUDANI-REGUIG
 Lyes-Yacine
-4
+vote : 4 1 2 3
 STROPPIANA
 Damien
-1
+vote : 1 3 2 4
 TAMARIN
 Maxime
-2
+vote : 2 3 4 1
 THIEL
 Maxime
-2
+vote : 2 1 3 4
 TORRES
 Julien
-2
+vote : 2 1 3 4
 VINCENT
 Erwan
-1
+vote : 1 2 4 3
 ZAINA
 Elias
-3
+vote : 3 1 2 4
 ZOPPI
 Lucie
-3
+vote : 3 2 1 4
