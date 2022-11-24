@@ -109,7 +109,7 @@ int main()
         {
 
             cout << nomJeux[0];
-            aff1 = false;
+            aff1 = true;
         }
 
         else if (tab[i] == jeu2 && aff2 == false)
