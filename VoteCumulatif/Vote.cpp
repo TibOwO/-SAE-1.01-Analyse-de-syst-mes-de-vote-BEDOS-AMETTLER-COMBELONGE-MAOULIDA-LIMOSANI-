@@ -1,6 +1,5 @@
 // Bibliothèques
 #include <iostream>
-#include <fstream>
 #include <vector>
 #include <bits/stdc++.h>
 
@@ -18,28 +17,19 @@ using namespace std;
     
 //FONCTIONS 
 
-//-- Liste les jeux presents dans le fichier input.txt --
-void ListeJeu(string ligneLu, char delimiter)
-{
-    stringstream ss(ligneLu);           // Init. variable "ss" de type stringstream qui a pour option "ligneLu", passé en paramètre de la fonction "ListeJeu"
-    string jeu;                         // Init. variable "jeu" de type string
-    while (!ss.eof())                   // La boucle tourne tant que le programme n'est pas arrivé a lafin de la ligne lu (LigneLu)
-    {
-        getline(ss, jeu, delimiter);    // Entre ss en entrée standard et stock une string dans la variable jeux jusqu'a un delimiter passé en paramètre
-        cout << jeu << endl;            // affiche la string stocké dans la variable jeu
-    }
-}
-
 //-- Affiche les jeux recupérés précedement avec ListeJeu() dans le fichier de sortie --
 void affichJeux(){
-    cout << "Les quatre jeu sont : " << endl;   // Affiche une première phrase
+
+    // Affichage des jeux
+    cout << "Les quatre jeu sont : " << endl;    // Affiche une première phrase
     string ligneJeu;                            // Init. variable ligneJeu de type string
     for (int i = 0; i < 4; i++)                 // Boucle "for", lit la ligne, et enregistre la string lorsque que le curseur arrive au delimiter, 4 foix
     {
         cin >> ligneJeu;                        // enregistre la ligne dns la variable "ligneJeu"
-        ListeJeu(ligneJeu, ' ');                // appel la fonction ListeJeu avec comme paramètre la ligneJeu et le delimiter
-        nomJeux[i] = ligneJeu;                  // une fois les 4 jeux séparé, ils sont enregistré dans un tableau "nomJeux"
+        nomJeux[i] = ligneJeu;                  // enregistre le jeu dans le tableau nomJeu
+        cout << nomJeux[i] << endl;             // Affiche le jeux enregistrer
     }
+    cout << endl;                               // retour a la ligne
 }
 
 void CompteVote(){
