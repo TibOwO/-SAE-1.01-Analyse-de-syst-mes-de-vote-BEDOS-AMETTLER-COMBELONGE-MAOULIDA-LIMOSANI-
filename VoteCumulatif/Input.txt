@@ -1,4 +1,4 @@
-Mariokart StreetFighter CournterStrike  Civilisation
+Mariokart StreetFighter CournterStrike Civilisation
 
 AMETTLER
 Thibault
@@ -62,7 +62,7 @@ Chris
 vote: 25 9 66 0
 BOSSO
 Gavril
-vote: 20 33 6 33
+vote: 20 33 14 33
 BOUGEARD
 Bastien
 vote: 16 16 44 24
@@ -110,7 +110,7 @@ Charles
 vote: 26 17 19 38 
 DE-ANGELI
 Adam
-vote: 26 2 33 36
+vote: 26 5 33 36
 DE-SOUSA-GUEDES
 Raphael
 vote: 54 14 7 25
@@ -194,7 +194,7 @@ Sami
 vote: 3 22 57 18
 JAURAS
 Maxime
-vote: 1 8 20 78
+vote: 1 1 20 78
 KHADRAOUI
 Sabri
 vote: 11 32 37 20
@@ -206,7 +206,7 @@ Elliot
 vote: 17 11 9 63
 LEBRUN
 Noa
-vote 66 25 4 5 
+vote: 66 25 4 5 
 LEPERLIER
 Mael
 vote: 6 37 30 27
