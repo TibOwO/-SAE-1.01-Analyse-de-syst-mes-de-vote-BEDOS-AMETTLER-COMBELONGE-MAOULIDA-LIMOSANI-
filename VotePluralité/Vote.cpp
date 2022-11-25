@@ -4,6 +4,20 @@
 #include <bits/stdc++.h> //pour la partie utilisant cette librairie, nous avons été aidé de :https://www.geeksforgeeks.org/how-to-split-a-string-in-cc-python-and-java/
 using namespace std;
 
+// déclaration des variables
+    int nbrParticiant = 0;
+    int jeu1 = 0;
+    int jeu2 = 0;
+    int jeu3 = 0;
+    int jeu4 = 0;
+    vector<string> nomJeux(4);
+
+   
+    bool aff1 = false;
+    bool aff2 = false;
+    bool aff3 = false;
+    bool aff4 = false;
+
 vector<int> CalculGagnant(int jeu1, int jeu2, int jeu3, int jeu4)
 {
     vector<int> tab(4);
@@ -27,18 +41,8 @@ void ListeJeu(string ligneLue, char delimiter)
     }
 }
 
-int main()
-{
-
-    // déclaration des variables
-    int nbrParticiant = 0;
-    int jeu1 = 0;
-    int jeu2 = 0;
-    int jeu3 = 0;
-    int jeu4 = 0;
-    vector<string> nomJeux(4);
-
-    // Affichage des jeux
+void affichJeux(){
+     // Affichage des jeux
     cout << "Les quatre jeu sont : " << endl;
     string ligneJeu;
     for (int i = 0; i < 4; i++)
@@ -47,8 +51,9 @@ int main()
         ListeJeu(ligneJeu, ' ');
         nomJeux[i] = ligneJeu;
     }
+}
 
-    // Comptabilisation des votes
+void CompteVote(){
     while (cin.eof() == false)
     {
         string ligneLue;
@@ -79,7 +84,9 @@ int main()
         }
     }
     nbrParticiant = nbrParticiant / 2;
+}
 
+void affichResultat(){
     // Affichage des résultats
     cout << "Resultat final : " << endl
          << endl
@@ -89,13 +96,9 @@ int main()
          << nomJeux[3] << " = " << jeu4 << endl
          << "Nombre de participant = " << nbrParticiant << endl
          << endl;
+}
 
-    // Calcul et affichage des gagnant
-    vector<int> tab = CalculGagnant(jeu1, jeu2, jeu3, jeu4);
-    bool aff1 = false;
-    bool aff2 = false;
-    bool aff3 = false;
-    bool aff4 = false;
+void affichGagnant(vector<int> tab){
     for (int i = 0; i <= tab.size() - 1; ++i)
     {
         if (i == 0)
@@ -133,4 +136,20 @@ int main()
         }
         cout << " avec un score de : " << tab[i] << endl;
     }
+}
+
+
+int main()
+{
+    affichJeux();
+
+    CompteVote();
+
+
+    affichResultat();
+    // Calcul et affichage des gagnant
+    vector<int> tab = CalculGagnant(jeu1, jeu2, jeu3, jeu4);
+    
+  
+    affichGagnant(tab);
 }
