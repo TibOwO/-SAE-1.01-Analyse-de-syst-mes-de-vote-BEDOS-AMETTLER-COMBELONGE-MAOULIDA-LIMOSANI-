@@ -1,8 +1,5 @@
-Mariokart StreetFighter CournterStrike  Civilisation
+MarioKart StreetFighter CournterStrike  Civilisation
 
-AMETTLER
-Thibault
-vote: 3 2 1 4
 ALI
 Mdallah
 vote: 3 2 4 1 
@@ -164,16 +161,16 @@ Axel
 vote: 2 3 1 4
 FREDDI
 Logan
-vote: 4 2 3 1
+vote: 3 2 4 1
 GINER
 Leo
-vote: 4 2 3 1 
+vote: 3 2 4 1 
 GIORDANO
 Yoann
-vote: 4 2 3 1
+vote: 3 2 4 1
 GIRODENGO
 Camille
-vote: 4 2 3 1 
+vote: 3 2 4 1 
 GODINAUD
 Maïlys
 vote: 4 2 3 1
@@ -182,7 +179,7 @@ Nathan
 vote: 4 1 2 3
 HARICOT
 Pierre
-vote: 1 2 4 3
+vote: 3 2 4 1
 HENRICY
 Noah
 vote: 3 1 2 4
@@ -197,7 +194,7 @@ Sami
 vote: 3 2 4 1 
 JAURAS
 Maxime
-vote: 1 3 2 4 
+vote: 3 1 2 4 
 KHADRAOUI
 Sabri
 vote: 3 4 1 2
@@ -206,10 +203,10 @@ Yehor
 vote: 3 4 1 2
 LARTIGAUD
 Elliot
-vote: 4 1 3 2
+vote: 2 1 3 4
 LEBRUN
 Noa
-vote 4 3 2 1 
+vote: 2 3 4 1 
 LEPERLIER
 Mael
 vote: 2 3 4 1 
@@ -224,19 +221,19 @@ Valentin
 vote: 3 1 2 4
 LIETO
 Myke
-vote: 2 1 4 3
+vote: 3 1 4 2
 LIMOSANI
 Francesco
-vote: 2 1 3 4
+vote: 3 1 2 4
 LOUARN
 Mathis
-vote: 2 1 4 3
+vote: 3 1 4 2
 MAGNAN
 Lukas
 vote: 2 1 3 4
 MAOULIDA-ATTOUMANI
 Yazid-Raoul
-vote: 4 2 3 1
+vote: 3 2 4 1
 MARIE
 Clement
 vote: 4 2 3 1
