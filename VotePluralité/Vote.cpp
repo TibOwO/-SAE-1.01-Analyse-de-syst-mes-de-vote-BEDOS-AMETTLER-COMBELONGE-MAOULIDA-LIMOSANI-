@@ -1,50 +1,39 @@
+// Bibliothèques
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <bits/stdc++.h> //pour la partie utilisant cette librairie, nous avons été aidé de :https://www.geeksforgeeks.org/how-to-split-a-string-in-cc-python-and-java/
+#include <bits/stdc++.h>
+
+// Espace de code
 using namespace std;
 
 // déclaration des variables
-    int nbrParticiant = 0;
-    int jeu1 = 0;
-    int jeu2 = 0;
-    int jeu3 = 0;
-    int jeu4 = 0;
-    vector<string> nomJeux(4);
+    int nbrParticiant = 0;               // Init. du compteur de participants/votants
 
-   
-    bool aff1 = false;
-    bool aff2 = false;
-    bool aff3 = false;
-    bool aff4 = false;
+    int jeu1, jeu2, jeu3, jeu4 = 0;      // Init. des compteurs de vote pour chaque jeu
 
-vector<int> CalculGagnant(int jeu1, int jeu2, int jeu3, int jeu4)
+    vector<string> nomJeux(4);           // Init. tableau avec le nom des jeux
+
+    bool aff1, aff2, aff3, aff4 = false; // Init. variable pour gerer les égalités
+    
+//FONCTIONS 
+
+//-- Liste les jeux presents dans le fichier input.txt --
+void ListeJeu(string ligneLu, char delimiter)
 {
-    vector<int> tab(4);
-    tab[0] = jeu1;
-    tab[1] = jeu2;
-    tab[2] = jeu3;
-    tab[3] = jeu4;
-    int i = 0;
-    sort(tab.begin(), tab.end(), greater<>());
-    return tab;
-}
-
-void ListeJeu(string ligneLue, char delimiter)
-{
-    stringstream ss(ligneLue);
-    string jeu;
-    while (!ss.eof())
+    stringstream ss(ligneLu);           // Init. variable "ss" de type stringstream qui a pour option "ligneLu", passé en paramètre de la fonction "ListeJeu"
+    string jeu;                         // Init. variable "jeu" de type string
+    while (!ss.eof())                   // La boucle tourne tant que le programme n'est pas arrivé a lafin de la ligne lu (LigneLu)
     {
-        getline(ss, jeu, delimiter);
-        cout << jeu << endl;
+        getline(ss, jeu, delimiter);    // Entre ss en entrée standard et stock une string dans la variable jeux jusqu'a un delimiter passé en paramètre
+        cout << jeu << endl;            // affiche la string stocké dans la variable jeu
     }
 }
 
+//-- Affiche les jeux recupérés précedement avec ListeJeu() dans le fichier de sortie --
 void affichJeux(){
-     // Affichage des jeux
-    cout << "Les quatre jeu sont : " << endl;
-    string ligneJeu;
+    cout << "Les quatre jeu sont : " << endl;   // Affiche une première phrase
+    string ligneJeu;                            // Init. variable ligneJeu de type string
     for (int i = 0; i < 4; i++)
     {
         cin >> ligneJeu;
@@ -53,6 +42,7 @@ void affichJeux(){
     }
 }
 
+//-- Comptabilise les voix de chaque votant et les enregistres dans les variables coorespondantes
 void CompteVote(){
     while (cin.eof() == false)
     {
@@ -86,6 +76,7 @@ void CompteVote(){
     nbrParticiant = nbrParticiant / 2;
 }
 
+// -- Affiche votes optenue pour chaque jeux --
 void affichResultat(){
     // Affichage des résultats
     cout << "Resultat final : " << endl
@@ -98,6 +89,20 @@ void affichResultat(){
          << endl;
 }
 
+// -- Tri les jeux en fonction des vote reçu, du plus grand au plus petit --
+vector<int> CalculGagnant(int jeu1, int jeu2, int jeu3, int jeu4)
+{
+    vector<int> tab(4);
+    tab[0] = jeu1;
+    tab[1] = jeu2;
+    tab[2] = jeu3;
+    tab[3] = jeu4;
+    int i = 0;
+    sort(tab.begin(), tab.end(), greater<>());
+    return tab;
+}
+
+// -- Affiche le classement des jeux, du premier au dernier --
 void affichGagnant(vector<int> tab){
     for (int i = 0; i <= tab.size() - 1; ++i)
     {
@@ -141,15 +146,18 @@ void affichGagnant(vector<int> tab){
 
 int main()
 {
+    //-- Affiche les jeux recupérés précedement avec ListeJeu() dans le fichier de sortie --
     affichJeux();
 
+    //-- Comptabilise les voix de chaque votant et les enregistres dans les variables coorespondantes
     CompteVote();
 
-
+    // -- Affiche votes optenue pour chaque jeux --
     affichResultat();
-    // Calcul et affichage des gagnant
+
+    // -- Tri les jeux en fonction des vote reçu, du plus grand au plus petit --
     vector<int> tab = CalculGagnant(jeu1, jeu2, jeu3, jeu4);
     
-  
+    // -- Affiche le classement des jeux, du premier au dernier --
     affichGagnant(tab);
 }
