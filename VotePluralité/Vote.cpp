@@ -1,7 +1,7 @@
 // Bibliothèques
 #include <iostream>
 #include <vector>
-#include <bits/stdc++.h>
+#include <algorithm>
 
 // Espace de code
 using namespace std;
@@ -21,7 +21,7 @@ using namespace std;
 void affichJeux(){
 
     // Affichage des jeux
-    cout << "Les quatre jeu sont : " << endl;    // Affiche une première phrase
+    cout << "Les quatre jeux sont : " << endl;    // Affiche une première phrase
     string ligneJeu;                            // Init. variable ligneJeu de type string
     for (int i = 0; i < 4; i++)                 // Boucle "for", lit la ligne, et enregistre la string lorsque que le curseur arrive au delimiter, 4 foix
     {
@@ -86,7 +86,7 @@ vector<int> CalculGagnant(int jeu1, int jeu2, int jeu3, int jeu4)
     tab[1] = jeu2;                              // la place 1 du tableau est jeu2
     tab[2] = jeu3;                              // la place 2 du tableau est jeu3
     tab[3] = jeu4;                              // la place 3 du tableau est jeu4
-    sort(tab.begin(), tab.end(), greater<>());  // Tri l'entièreté du tableau du plus grand au plus petit
+    sort(tab.begin(), tab.end(),);  // Tri l'entièreté du tableau du plus grand au plus petit
     return tab;                                 // retourne le tableau trié
 }
 

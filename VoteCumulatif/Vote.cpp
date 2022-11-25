@@ -21,7 +21,7 @@ using namespace std;
 void affichJeux(){
 
     // Affichage des jeux
-    cout << "Les quatre jeu sont : " << endl;    // Affiche une première phrase
+    cout << "Les quatre jeux sont : " << endl;    // Affiche une première phrase
     string ligneJeu;                            // Init. variable ligneJeu de type string
     for (int i = 0; i < 4; i++)                 // Boucle "for", lit la ligne, et enregistre la string lorsque que le curseur arrive au delimiter, 4 foix
     {

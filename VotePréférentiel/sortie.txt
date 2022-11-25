@@ -1,18 +1,18 @@
-Les quatre jeu sont : 
+Les quatre jeux sont : 
 MarioKart
 StreetFighter
-CournterStrike
+CounterStrike
 Civilisation
 
 Resultat final : 
 
 MarioKart = 266
 StreetFighter = 306
-CournterStrike = 313
+CounterStrike = 313
 Civilisation = 245
 Nombre de participant = 113
 
-1er, CournterStrike avec un score de : 313
+1er, CounterStrike avec un score de : 313
 2ème, StreetFighter avec un score de : 306
 3ème, MarioKart avec un score de : 266
 4ème, Civilisation avec un score de : 245
