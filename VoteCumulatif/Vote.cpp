@@ -42,10 +42,6 @@ void affichJeux(){
     }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b4efbf32e5fe749de8191659d0b45ba483a5675e
 void CompteVote(){
     
     int vote = 0;
@@ -65,17 +61,10 @@ void CompteVote(){
         else
         {
              
-<<<<<<< HEAD
             ++nbrParticipants;
         }
     }
     nbrParticipants = nbrParticipants / 2;
-=======
-            ++nbrParticiant;
-        }
-    }
-    nbrParticiant = nbrParticiant / 2;
->>>>>>> b4efbf32e5fe749de8191659d0b45ba483a5675e
     jeu1 = jeux[0];
     jeu2 = jeux[1];
     jeu3 = jeux[2];
@@ -143,7 +132,8 @@ void affichGagnant(vector<int> tab){
             cout << nomJeux[3];                             // Affiche le quatrième jeux
             aff4 = true;                                    // aff4 passe de false a true, cela permet de pas resortir le jeux en cas d'égalité
         }
-        cout << " avec un score de : " << tab[i] << endl;   // Affiche " avec un score de : " avec le score du jeu en indice courant et un retour a la ligne 
+        float res = tab[i]*100.0/(nbrParticipants *100.0);
+        cout << " avec un score de : " << res <<" %"<< endl;   // Affiche " avec un score de : " avec le score du jeu en indice courant et un retour a la ligne 
     }
 }
 

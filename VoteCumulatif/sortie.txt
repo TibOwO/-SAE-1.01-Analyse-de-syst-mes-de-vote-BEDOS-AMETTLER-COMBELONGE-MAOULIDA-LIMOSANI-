@@ -5,13 +5,13 @@ CournterStrike
 Civilisation
 Resultat final : 
 
-Mariokart = 284
-StreetFighter = 272
-CournterStrike = 271
-Civilisation = 301
-Nombre de participant = 116
+Mariokart = 95
+StreetFighter = 28
+CournterStrike = 66
+Civilisation = 11
+Nombre de participant = 2
 
-1er, Civilisation avec un score de : 301
-2ème, Mariokart avec un score de : 284
-3ème, StreetFighter avec un score de : 272
-4ème, CournterStrike avec un score de : 271
+1er, Mariokart avec un score de : 47.5 %
+2ème, CournterStrike avec un score de : 33 %
+3ème, StreetFighter avec un score de : 14 %
+4ème, Civilisation avec un score de : 5.5 %
