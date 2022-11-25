@@ -3,19 +3,15 @@ Mariokart
 StreetFighter
 CournterStrike
 Civilisation
-AMETTLER
-Thibault
-MAOULIDA
-Raoul
 Resultat final : 
 
-Mariokart = 95
-StreetFighter = 16
-CournterStrike = 66
-Civilisation = 11
-Nombre de participant = 2
+Mariokart = 284
+StreetFighter = 272
+CournterStrike = 271
+Civilisation = 301
+Nombre de participant = 116
 
-1er, Mariokart avec un score de : 95
-2ème, CournterStrike avec un score de : 66
-3ème, StreetFighter avec un score de : 16
-4ème, Civilisation avec un score de : 11
+1er, Civilisation avec un score de : 301
+2ème, Mariokart avec un score de : 284
+3ème, StreetFighter avec un score de : 272
+4ème, CournterStrike avec un score de : 271

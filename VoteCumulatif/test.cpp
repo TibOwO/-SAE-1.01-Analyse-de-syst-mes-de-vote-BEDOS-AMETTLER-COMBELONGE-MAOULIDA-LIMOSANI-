@@ -67,12 +67,12 @@ void CompteVote(){
             for(int i = 0; i < jeux.size(); ++i)
             {
                 cin >> vote;
-                jeux[i] = vote; 
+                jeux[i] += vote; 
             }
         }
         else
         {
-             cout << ligneLue << endl;
+             
             ++nbrParticiant;
         }
     }

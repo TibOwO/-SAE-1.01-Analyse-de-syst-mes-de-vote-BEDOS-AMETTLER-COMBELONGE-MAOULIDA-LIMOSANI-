@@ -52,8 +52,10 @@ void affichJeux(){
         nomJeux[i] = ligneJeu;
     }
 }
-template <typename> T
+
+
 void CompteVote(){
+    
     int vote = 0;
     vector <unsigned> jeux(4);
     while (cin.eof() == false)
@@ -62,17 +64,23 @@ void CompteVote(){
         cin >> ligneLue;
         if (ligneLue == "vote:")
         {
-            for(int i = 1; jeu.size(); i++){
+            for(int i = 0; i < jeux.size(); ++i)
+            {
                 cin >> vote;
-                jeu[i] = jeu[i] + vote; 
+                jeux[i] += vote; 
             }
         }
         else
         {
+             
             ++nbrParticiant;
         }
     }
     nbrParticiant = nbrParticiant / 2;
+    jeu1 = jeux[0];
+    jeu2 = jeux[1];
+    jeu3 = jeux[2];
+    jeu4 = jeux[3];
 }
 
 void affichResultat(){
