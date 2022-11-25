@@ -1,10 +1,8 @@
 Les quatre jeu sont : 
-
 MK
 CSGO
 SF
 CVL
-
 Resultat final : 
 
 MK = 23
@@ -13,7 +11,7 @@ SF = 27
 CVL = 28
 Nombre de participant = 113
 
-1er,  MK avec un score de : 23
-2ème,  SF avec un score de : 27
-3ème,  CVL avec un score de : 28
-4ème,  CSGO avec un score de : 35
+1er, MK avec un score de : 23
+2ème, SF avec un score de : 27
+3ème, CVL avec un score de : 28
+4ème, CSGO avec un score de : 35

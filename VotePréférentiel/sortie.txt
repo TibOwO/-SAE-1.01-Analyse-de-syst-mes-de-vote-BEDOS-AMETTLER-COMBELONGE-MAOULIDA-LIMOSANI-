@@ -10,7 +10,7 @@ Mariokart = 7
 StreetFighter = 3
 CournterStrike = 3
 Civilisation = 7
-Nombre de participant = 4
+Nombre de participant = 2
 
 1er, Mariokart avec un score de : 7
 2ème, Civilisation avec un score de : 7

@@ -16,8 +16,8 @@ using namespace std;
 
     bool aff1, aff2, aff3, aff4 = false; // Init. variable pour gerer les égalités
     
+    
 //FONCTIONS 
-
 //-- Liste les jeux presents dans le fichier input.txt --
 void ListeJeu(string ligneLu, char delimiter)
 {
@@ -102,42 +102,42 @@ vector<int> CalculGagnant(int jeu1, int jeu2, int jeu3, int jeu4)
 
 // -- Affiche le classement des jeux, du premier au dernier --
 void affichGagnant(vector<int> tab){
-    for (int i = 0; i <= tab.size() - 1; ++i)               // Boucle for, 
+    for (int i = 0; i <= tab.size() - 1; ++i)               // Boucle for, boucle jusqu'à arrivé a la taille de tab -1
     {
-        if (i == 0)
+        if (i == 0)                                         // Condition "if", si i vaut 0, alors ...
         {
-            cout << i + 1 << "er, ";
+            cout << i + 1 << "er, ";                        // Afficher i +1 er, pour la première place
         }
-        else
+        else                                                // Condition "else", sinon ...
         {
-            cout << i + 1 << "ème, ";
-        }
-
-        if (tab[i] == jeu1 && aff1 == false)
-        {
-
-            cout << nomJeux[0];
-            aff1 = true;
+            cout << i + 1 << "ème, ";                       // Afficher i + 1 ème, pour la place 2, 3, et 4
         }
 
-        else if (tab[i] == jeu2 && aff2 == false)
+        if (tab[i] == jeu1 && aff1 == false)                // Condition "if", si tab[i] vaut jeu1 et que aff1 vaut false, alors...
         {
-            cout << nomJeux[1];
-            aff2 = true;
+
+            cout << nomJeux[0];                             // Afficher le premier jeux
+            aff1 = true;                                    // aff1 passe de false a true, cela permet de pas resortir le jeux en cas d'égalité
         }
 
-        else if (tab[i] == jeu3 && aff3 == false)
+        else if (tab[i] == jeu2 && aff2 == false)           // Condition "else if", sinon si tab[i] vaut jeu2 et que aff2 vaut false, alors...
         {
-            cout << nomJeux[2];
-            aff3 = true;
+            cout << nomJeux[1];                             // Affiche le deuxième jeux
+            aff2 = true;                                    // aff1 passe de false a true, cela permet de pas resortir le jeux en cas d'égalité
         }
 
-        else if (tab[i] == jeu4 && aff4 == false)
+        else if (tab[i] == jeu3 && aff3 == false)           // Condition "else if", sinon si tab[i] vaut jeu3 et que aff3 vaut false, alors...
         {
-            cout << nomJeux[3];
-            aff4 = true;
+            cout << nomJeux[2];                             // Affiche le troisième jeux
+            aff3 = true;                                    // aff3 passe de false a true, cela permet de pas resortir le jeux en cas d'égalité
         }
-        cout << " avec un score de : " << tab[i] << endl;
+
+        else if (tab[i] == jeu4 && aff4 == false)           // Condition "else if", sinon si tab[i] vaut jeu4 et que aff4 vaut false, alors...
+        {
+            cout << nomJeux[3];                             // Affiche le quatrième jeux
+            aff4 = true;                                    // aff4 passe de false a true, cela permet de pas resortir le jeux en cas d'égalité
+        }
+        cout << " avec un score de : " << tab[i] << endl;   // Affiche " avec un score de : " avec le score du jeu en indice courant et un retour a la ligne 
     }
 }
 
