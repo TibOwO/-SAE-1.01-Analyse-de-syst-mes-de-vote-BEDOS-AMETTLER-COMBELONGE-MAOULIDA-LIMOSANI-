@@ -1,0 +1,21 @@
+Les quatre jeu sont : 
+Mariokart
+StreetFighter
+CournterStrike
+Civilisation
+AMETTLER
+Thibault
+MAOULIDA
+Raoul
+Resultat final : 
+
+Mariokart = 95
+StreetFighter = 16
+CournterStrike = 66
+Civilisation = 11
+Nombre de participant = 2
+
+1er, Mariokart avec un score de : 95
+2ème, CournterStrike avec un score de : 66
+3ème, StreetFighter avec un score de : 16
+4ème, Civilisation avec un score de : 11
